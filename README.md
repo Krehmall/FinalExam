@@ -20,7 +20,7 @@ Then in console type `node index.js`
 The targes was to make server App that: managing database of people, have requested **CRUD** functions, works with API requests.
 **MongoDB** was used as data base, Express was used to run local server.The **app/app.js** simulates client part for API requests.
 In order to run this App you need:
-* In console enter the path ***FinalExam/Backend***, enter command: npm i
+* In console enter the path ***FinalExam/Backend***, enter command `npm i`
 * Go to directory ***modules/dbModule.js*** in line number 5 you must write: `const url = "YourMongoBDLink"`.
 * For first time you running App only,you need to uncomment in ***server.js*** line 60. (After first run you must remove this line)
 * In console run command `node server.js`
